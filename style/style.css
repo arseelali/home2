@@ -1,0 +1,104 @@
+#header-div {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+body {
+  background-color: #15bfbc;
+}
+
+#aboutme-text {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+#aboutme-caption {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+#contactus-text {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+#contactus-caption {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+#img-001 {
+  width: 500px;
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+
+#portfolio-text {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+#fbisd-blocked {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+#form-div {
+  text-align: center;
+}
+
+.button {
+  color: white;
+  background-color: purple;
+  border: none;
+  padding: 10px 30px;
+  font-family: "Anton", Arial;
+}
+
+.button:hover{
+  background-color: #c202c2;
+  transition: ;
+}
+
+#links-text {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+#links {
+  font-family: "Anton", Arial;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+#last-updated{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#linktree-button{
+  margin-bottom: 5px;
+}
+
+#htbapc-button{
+  margin-top: 5px;
+}
