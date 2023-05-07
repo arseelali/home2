@@ -5,7 +5,7 @@ body {
   padding: 0px;
   margin: 0px;
   /* Custom Styling for body */
-  background-image: url(/images/bg01.jpg);
+  background-image: url(/gfp/images/bg01.jpg);
 }
 @media screen and (prefers-reduced-motion: no-preference) {
   html {
