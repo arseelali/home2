@@ -2,4 +2,4 @@ URL = http://arseelali.com
 Project Client = Personal Project
 Status: Open - Live - In Development
 Project Notes:
-None at the moment.
+None
