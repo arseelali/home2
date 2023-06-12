@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+.wrapper {
+    text-align: left;
+    width: 70%;
+    border: 3px solid #292929;
+    border-radius: 5px;
+}
+
+.div-center {
+    margin: auto;
+}
