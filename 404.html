@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Error 404 - Directory not found</title>
     <style>
-    body {
-        text-align: center;    
-    }
+        body {
+            text-align: center;
+        }
     </style>
-    <title>Error 404</title>
 </head>
 <body>
-    <div id="error">
-        <h1>Error 404 - Directory not found.</h1>
-        <h2><a href="https://arseelali.com">Home</a></h2>
+    <div class="nav">
+        <a href="/">Home</a>
+        <a href="/#about">About Me</a>
+        <a href="/pages/articles/">Articles</a>
+        <a href="/pages/portfolio/">Portfolio</a>
     </div>
+
+    <div id="error">
+        <h1 id="404header">Error 404 - Cannot GET /Directory</h1>
+        <h2>That's not right</h2>
+        <p>That page wasn't found on this server. Maybe a bad link was clicked.</p>
+        <p>Try again or <a href="/" style="font-weight: bold;">go back home</a></p>
+    </div>
+
+    <footer>Copyright &copy; 2023 Arseel Ali - Site Version v1.0 Last Updated June 21, 2023</footer>
+
+    <script>
+        function getCurrentURL () {
+            return window.location.pathname
+        }
+
+        const currentURL = getCurrentURL();
+
+        document.getElementById("404header").innerHTML = "Error 404 - Cannot GET " + currentURL
+    </script>
 </body>
 </html>
